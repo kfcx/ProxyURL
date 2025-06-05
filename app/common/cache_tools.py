@@ -36,7 +36,7 @@ def download(url):
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0",
     }
-    res = requests.get(url=url, headers=header, impersonate="chrome")
+    res = requests.get(url=url, impersonate="chrome")
     _data = res.content
     ts_info[url] = _data
     return _data
@@ -46,6 +46,6 @@ def get_m3u8_down(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0"
     }
-    res = requests.get(url=url, headers=header, impersonate="chrome")
+    res = requests.get(url=url, impersonate="chrome")
     _data = res.text
     return _data
