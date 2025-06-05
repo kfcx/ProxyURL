@@ -10,7 +10,7 @@ from pydantic import *
 from platform import *
 
 
-class Config(BaseModel):
+class Config(BaseSettings):
     TITLE: Optional[str] = "ProxyURL"
 
     DESC: Optional[str] = """
