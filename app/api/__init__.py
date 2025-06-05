@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/10/8
 # @Author  : Naihe
-# @Email   : 239144498@qq.com
 # @File    : __init__.py
 # @Software: PyCharm
 from loguru import *
@@ -40,7 +39,7 @@ async def Root_Path():
         "Version": config.VERSION,
         "Web_APP": "https://proxy.naihe.me/",
         "API_Document": "https://proxy.naihe.me/docs",
-        "GitHub": "https://github.com/239144498/proxyURL",
+        "GitHub": "https://github.com/kfcx/proxyURL",
     }
     return JSONResponse(data)
 
