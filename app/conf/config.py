@@ -19,17 +19,15 @@ class Config(BaseSettings):
 <summary>点击展开/Click to expand</summary>
 - 频道源代理后播放更稳定，更多功能正在开发中。
 - 如果需要更多接口，请查看[https://proxy.naihe.me/docs](https://proxy.naihe.me/docs)。
-- 本项目开源在[GitHub：ProxyURL](https://github.com/239144498/ProxyURL)。
+- 本项目开源在[GitHub：ProxyURL](https://github.com/kfcx/ProxyURL)。
 - 本项目不提供IPTV频道源，请自行搜索。
-- 如遇到问题或BUG或建议请在[issues](https://github.com/239144498/ProxyURL/issues)中反馈。
+- 如遇到问题或BUG或建议请在[issues](https://github.com/kfcx/ProxyURL/issues)中反馈。
 - 本项目仅供学习交流使用，严禁用于违法用途，如有侵权请联系作者。
 </details>
 #### Contact author/联系作者
 <details>
 <summary>点击展开/Click to expand</summary>
-- WeChat: onaihe
-- Email: [239144498@qq.com](mailto:239144498@qq.com)
-- Github: [https://github.com/239144498](https://github.com/239144498)
+- Github: [https://github.com/kfcx](https://github.com/kfcx)
 </details>
     """
 
