@@ -15,7 +15,7 @@ from collections import *
 from urllib.parse import *
 from app.conf.config import *
 from app.plugins.proxy.tools import *
-from curl_cffi import *
+from curl_cffi import requests
 
 
 async def processing(url, data):
